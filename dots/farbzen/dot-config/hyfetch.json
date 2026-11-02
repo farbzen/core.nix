@@ -1,0 +1,12 @@
+{
+  "auto_detect_light_dark": true,
+  "backend": "macchina",
+  "color_align": {
+    "mode": "horizontal"
+  },
+  "light_dark": "dark",
+  "lightness": 0.68,
+  "mode": "rgb",
+  "preset": "pansexual",
+  "pride_month_disable": true
+}

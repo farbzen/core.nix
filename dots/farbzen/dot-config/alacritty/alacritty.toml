@@ -1,0 +1,33 @@
+[general]
+import = ["rose-pine.toml"]
+
+[window]
+opacity = 0.8
+decorations = "Full"
+decorations_theme_variant = "Dark"
+
+[window.padding]
+x = 16
+y = 16
+
+[font]
+size = 13.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[env]
+TERM = "xterm-256color"

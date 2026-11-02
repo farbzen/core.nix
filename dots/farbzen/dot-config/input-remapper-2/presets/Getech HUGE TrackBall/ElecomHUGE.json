@@ -1,0 +1,41 @@
+[
+  {
+    "input_combination": [
+      {
+        "type": 1,
+        "code": 279,
+        "origin_hash": "1b92aed994c7591541eff3e604212d5a"
+      }
+    ],
+    "target_uinput": "keyboard + mouse",
+    "output_symbol": "KEY_LEFTMETA + BTN_LEFT",
+    "name": "Fn3",
+    "mapping_type": "key_macro"
+  },
+  {
+    "input_combination": [
+      {
+        "type": 1,
+        "code": 277,
+        "origin_hash": "1b92aed994c7591541eff3e604212d5a"
+      }
+    ],
+    "target_uinput": "keyboard + mouse",
+    "output_symbol": "KEY_LEFTMETA + BTN_RIGHT",
+    "name": "Fn1",
+    "mapping_type": "key_macro"
+  },
+  {
+    "input_combination": [
+      {
+        "type": 1,
+        "code": 278,
+        "origin_hash": "1b92aed994c7591541eff3e604212d5a"
+      }
+    ],
+    "target_uinput": "keyboard",
+    "output_symbol": "KEY_LEFTMETA + KEY_PRINT",
+    "name": "Fn2",
+    "mapping_type": "key_macro"
+  }
+]

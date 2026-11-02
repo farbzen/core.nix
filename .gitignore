@@ -1,0 +1,29 @@
+# Devenv
+/.devenv*
+/devenv.local.nix
+
+# direnv
+/.direnv
+
+# pre-commit
+/.pre-commit-config.yaml
+
+# live ISO result
+/result
+
+# Environments
+.env
+
+# Symlinks
+/dots/farbzen/dot-config/hypr/.dms-backups/
+/dots/farbzen/dot-config/hypr/.dms-backups
+/dots/farbzen/dot-config/DankMaterialShell/plugins/
+/dots/farbzen/dot-config/DankMaterialShell/plugins
+/dots/farbzen/dot-config/gtk-3.0/assets/
+/dots/farbzen/dot-config/gtk-3.0/assets
+/dots/farbzen/dot-config/tmux/plugins/
+/dots/farbzen/dot-config/tmux/plugins
+
+# Hyprland outputs
+/dots/farbzen/dot-config/hypr/outputs.lua
+/dots/farbzen/dot-config/hypr/startup.lua
