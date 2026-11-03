@@ -1,7 +1,7 @@
 local terminal = "foot"
 local browser = "zen-beta"
 local musicplayer = "spotify"
-local fileExplorer = "nautilus"
+local fileExplorer = "dfiles"
 local calculator = "qalculate-gtk"
 local passwordManager = "1password"
 local screenshot = "dms screenshot --dir ~/Pictures/Screenshots"

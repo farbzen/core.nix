@@ -8,7 +8,6 @@
     modules = [
       self.nixosModules.baseConfig
       self.nixosModules.desktopGnome
-      self.nixosModules.userNeoth
 
       (
         {modulesPath, ...}: {

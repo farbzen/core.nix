@@ -7,7 +7,6 @@
   },
   "floatingWindowSyncGlobal": false,
   "floatingWindowTransparency": 0.8,
-  "cornerRadius": 12,
   "hyprlandLayoutGapsOverride": 5,
   "hyprlandLayoutGapsOutOverride": 10,
   "hyprlandLayoutRadiusOverride": 12,
@@ -16,73 +15,110 @@
   "clockFormat": "24h",
   "barElevationEnabled": false,
   "blurEnabled": true,
-  "controlCenterShowMicPercent": true,
   "controlCenterWidgets": [
+    {
+      "id": "user",
+      "enabled": true,
+      "w": 5,
+      "h": 1
+    },
+    {
+      "id": "settings",
+      "enabled": true,
+      "w": 1,
+      "h": 1,
+      "small": true
+    },
+    {
+      "id": "lock",
+      "enabled": true,
+      "w": 1,
+      "h": 1,
+      "small": true
+    },
+    {
+      "id": "power",
+      "enabled": true,
+      "w": 1,
+      "h": 1,
+      "small": true
+    },
     {
       "id": "battery",
       "enabled": true,
-      "width": 25
+      "w": 2,
+      "h": 1
     },
     {
       "id": "wifi",
       "enabled": true,
-      "width": 25
+      "w": 2,
+      "h": 1
     },
     {
       "id": "bluetooth",
       "enabled": true,
-      "width": 25
+      "w": 2,
+      "h": 1
     },
     {
       "id": "doNotDisturb",
       "enabled": true,
-      "width": 25
+      "w": 2,
+      "h": 1
     },
     {
       "id": "brightnessSlider",
       "enabled": true,
-      "width": 50
+      "w": 4,
+      "h": 1
     },
     {
       "id": "volumeSlider",
       "enabled": true,
-      "width": 50
+      "w": 4,
+      "h": 1
     },
     {
       "id": "audioOutput",
       "enabled": true,
-      "width": 50
+      "w": 4,
+      "h": 1
     },
     {
       "id": "audioInput",
       "enabled": true,
-      "width": 50
+      "w": 4,
+      "h": 1
+    },
+    {
+      "id": "edit",
+      "enabled": true,
+      "w": 1,
+      "h": 1,
+      "small": true
+    },
+    {
+      "id": "runningApps",
+      "enabled": true,
+      "w": 4,
+      "h": 1,
+      "small": true,
+      "col": 0,
+      "row": 5
     }
   ],
-  "showWorkspaceIndex": true,
-  "showWorkspacePadding": true,
-  "showWorkspaceApps": true,
-  "maxWorkspaceIcons": 20,
-  "groupWorkspaceApps": false,
-  "workspaceFollowFocus": true,
-  "showOccupiedWorkspacesOnly": true,
-  "workspaceColorMode": "s",
-  "workspaceOccupiedColorMode": "s",
-  "workspaceUnfocusedColorMode": "s",
-  "workspaceUrgentColorMode": "secondary",
-  "workspaceFocusedBorderEnabled": true,
   "mediaExcludePlayers": [
     "org.kde.kdeconnect.app"
   ],
   "clockDateFormat": "yyyy-MM-dd",
   "greeterEnableFprint": true,
-  "greeterWallpaperPath": "/home/farbzen/Pictures/Wallpapers/wallhaven_m3j7q9.jpg",
   "browserPickerViewMode": "list",
   "spotlightSectionViewModes": {
     "apps": "list"
   },
   "dankLauncherV2Size": "micro",
-  "launcherStyle": "spotlight",
+  "launcherStyle": "island",
   "useAutoLocation": true,
   "weatherEnabled": false,
   "networkPreference": "wifi",
@@ -102,17 +138,8 @@
       "cursorHideTimeout": 0
     }
   },
-  "launcherLogoMode": "os",
   "soundLogin": true,
   "batteryNotifyLow": true,
-  "showDock": true,
-  "dockSmartAutoHide": true,
-  "dockSpacing": 12,
-  "dockMargin": 12,
-  "dockLauncherEnabled": true,
-  "dockLauncherLogoMode": "os",
-  "dockLauncherLogoSizeOffset": 10,
-  "dockTrashFileManager": "nautilus",
   "notificationForegroundLayers": false,
   "notificationShowTimeoutBar": true,
   "notificationPopupPosition": -1,
@@ -131,7 +158,19 @@
       "leftWidgets": [
         {
           "id": "workspaceSwitcher",
-          "enabled": true
+          "enabled": true,
+          "showWorkspaceIndex": true,
+          "showWorkspacePadding": true,
+          "showWorkspaceApps": true,
+          "maxWorkspaceIcons": 20,
+          "groupWorkspaceApps": false,
+          "workspaceFollowFocus": true,
+          "showOccupiedWorkspacesOnly": true,
+          "workspaceColorMode": "s",
+          "workspaceOccupiedColorMode": "s",
+          "workspaceUnfocusedColorMode": "s",
+          "workspaceUrgentColorMode": "secondary",
+          "workspaceFocusedBorderEnabled": true
         },
         {
           "id": "dankKDEConnect",
@@ -145,7 +184,19 @@
       "centerWidgets": [
         {
           "id": "workspaceSwitcher",
-          "enabled": true
+          "enabled": true,
+          "showWorkspaceIndex": true,
+          "showWorkspacePadding": true,
+          "showWorkspaceApps": true,
+          "maxWorkspaceIcons": 20,
+          "groupWorkspaceApps": false,
+          "workspaceFollowFocus": true,
+          "showOccupiedWorkspacesOnly": true,
+          "workspaceColorMode": "s",
+          "workspaceOccupiedColorMode": "s",
+          "workspaceUnfocusedColorMode": "s",
+          "workspaceUrgentColorMode": "secondary",
+          "workspaceFocusedBorderEnabled": true
         }
       ],
       "rightWidgets": [
@@ -196,7 +247,6 @@
       "noBackground": true,
       "maximizeWidgetIcons": false,
       "maximizeWidgetText": false,
-      "removeWidgetPadding": false,
       "widgetPadding": 8,
       "gothCornersEnabled": false,
       "gothCornerRadiusOverride": false,
@@ -220,7 +270,7 @@
       "popupGapsManual": 4,
       "maximizeDetection": true,
       "scrollEnabled": true,
-      "scrollXBehavior": "column",
+      "scrollXBehavior": "focusWindow",
       "scrollYBehavior": "workspace",
       "shadowIntensity": 0,
       "shadowOpacity": 60,
@@ -230,7 +280,6 @@
       "useOverlayLayer": false,
       "barInsetPadding": 4,
       "island": true,
-      "islandTransparency": 0.8,
       "islandFloating": false,
       "islandUseOverlayLayer": false,
       "islandHomeCompactTight": false,
@@ -247,7 +296,6 @@
       "islandCompactThickness": 38,
       "islandBatteryStyle": "ring",
       "islandPalette": "dim",
-      "islandCornerRadius": 34,
       "islandMediaClockVisible": true,
       "islandSatelliteSwoopRadius": 16,
       "batteryColorMode": "theme",
@@ -282,37 +330,200 @@
           "enabled": true
         }
       ],
-      "islandHomeVolumeDisplay": "both"
+      "islandHomeVolumeDisplay": "both",
+      "followInterfaceStyle": false,
+      "widgetFollowInterfaceStyle": false
+    },
+    {
+      "id": "dot1793699271733",
+      "name": "Dot",
+      "enabled": false,
+      "position": 0,
+      "screenPreferences": [
+        "all"
+      ],
+      "showOnLastDisplay": true,
+      "leftWidgets": [
+        {
+          "id": "workspaceSwitcher",
+          "enabled": true,
+          "showWorkspaceIndex": true,
+          "showWorkspacePadding": true,
+          "showWorkspaceApps": true,
+          "maxWorkspaceIcons": 20,
+          "groupWorkspaceApps": false,
+          "workspaceFollowFocus": true,
+          "showOccupiedWorkspacesOnly": true,
+          "workspaceColorMode": "s",
+          "workspaceOccupiedColorMode": "s",
+          "workspaceUnfocusedColorMode": "s",
+          "workspaceUrgentColorMode": "secondary",
+          "workspaceFocusedBorderEnabled": true
+        },
+        {
+          "id": "dankKDEConnect",
+          "enabled": true
+        },
+        {
+          "id": "dcalUpcoming",
+          "enabled": true
+        }
+      ],
+      "centerWidgets": [
+        {
+          "id": "workspaceSwitcher",
+          "enabled": true,
+          "showWorkspaceIndex": true,
+          "showWorkspacePadding": true,
+          "showWorkspaceApps": true,
+          "maxWorkspaceIcons": 20,
+          "groupWorkspaceApps": false,
+          "workspaceFollowFocus": true,
+          "showOccupiedWorkspacesOnly": true,
+          "workspaceColorMode": "s",
+          "workspaceOccupiedColorMode": "s",
+          "workspaceUnfocusedColorMode": "s",
+          "workspaceUrgentColorMode": "secondary",
+          "workspaceFocusedBorderEnabled": true
+        }
+      ],
+      "rightWidgets": [
+        {
+          "id": "claudeCodeUsage",
+          "enabled": true
+        },
+        {
+          "id": "systemTray",
+          "enabled": true
+        },
+        {
+          "id": "notificationButton",
+          "enabled": true
+        },
+        {
+          "id": "controlCenterButton",
+          "enabled": true,
+          "showScreenSharingIcon": true,
+          "showMicIcon": true,
+          "showMicPercent": false,
+          "showBrightnessIcon": false,
+          "showBatteryIcon": true,
+          "showDoNotDisturbIcon": true,
+          "showBrightnessPercent": false,
+          "showAudioPercent": false,
+          "controlCenterGroupOrder": [
+            "network",
+            "vpn",
+            "bluetooth",
+            "audio",
+            "microphone",
+            "brightness",
+            "printer",
+            "screenSharing",
+            "idleInhibitor",
+            "doNotDisturb",
+            "battery"
+          ]
+        }
+      ],
+      "spacing": 10,
+      "innerPadding": 10,
+      "bottomGap": 0,
+      "transparency": 0.8,
+      "widgetTransparency": 0.8,
+      "squareCorners": false,
+      "noBackground": true,
+      "maximizeWidgetIcons": false,
+      "maximizeWidgetText": false,
+      "widgetPadding": 8,
+      "gothCornersEnabled": false,
+      "gothCornerRadiusOverride": false,
+      "gothCornerRadiusValue": 12,
+      "borderEnabled": false,
+      "borderColor": "surfaceText",
+      "borderOpacity": 1,
+      "borderThickness": 1,
+      "widgetOutlineEnabled": false,
+      "widgetOutlineColor": "primary",
+      "widgetOutlineOpacity": 1,
+      "widgetOutlineThickness": 1,
+      "fontScale": 1.25,
+      "iconScale": 1,
+      "autoHide": false,
+      "autoHideDelay": 250,
+      "showOnWindowsOpen": false,
+      "openOnOverview": false,
+      "visible": true,
+      "popupGapsAuto": true,
+      "popupGapsManual": 4,
+      "maximizeDetection": true,
+      "scrollEnabled": true,
+      "scrollXBehavior": "focusWindow",
+      "scrollYBehavior": "workspace",
+      "shadowIntensity": 0,
+      "shadowOpacity": 60,
+      "shadowColorMode": "default",
+      "shadowCustomColor": "#000000",
+      "clickThrough": false,
+      "useOverlayLayer": false,
+      "barInsetPadding": 4,
+      "island": false,
+      "islandFloating": false,
+      "islandUseOverlayLayer": false,
+      "islandHomeCompactTight": false,
+      "islandHomeClockDisplay": "both",
+      "islandSatelliteBackground": true,
+      "islandSatellitePosition": "edges",
+      "islandSatelliteGothCorners": true,
+      "islandSatellitesEnabled": true,
+      "islandSatelliteGap": 18,
+      "islandSatelliteTransparency": 0.8,
+      "islandOuterGap": 4,
+      "islandAlongOffset": 0,
+      "islandReserveThickness": 40,
+      "islandCompactThickness": 38,
+      "islandBatteryStyle": "ring",
+      "islandPalette": "dim",
+      "islandMediaClockVisible": true,
+      "islandSatelliteSwoopRadius": 16,
+      "batteryColorMode": "theme",
+      "islandNotificationExpand": true,
+      "islandHomeLayout": [
+        {
+          "id": "media",
+          "enabled": true
+        },
+        {
+          "id": "clock",
+          "enabled": true
+        },
+        {
+          "id": "weather",
+          "enabled": false
+        },
+        {
+          "id": "status",
+          "enabled": false
+        },
+        {
+          "id": "volume",
+          "enabled": false
+        },
+        {
+          "id": "brightness",
+          "enabled": false
+        },
+        {
+          "id": "notifications",
+          "enabled": true
+        }
+      ],
+      "islandHomeVolumeDisplay": "both",
+      "followInterfaceStyle": false,
+      "widgetFollowInterfaceStyle": false,
+      "dot": true
     }
   ],
-  "desktopClockCustomColor": {
-    "r": 1,
-    "g": 1,
-    "b": 1,
-    "a": 1,
-    "hsvHue": -1,
-    "hsvSaturation": 0,
-    "hsvValue": 1,
-    "hslHue": -1,
-    "hslSaturation": 0,
-    "hslLightness": 1,
-    "valid": true,
-    "rgba": -1
-  },
-  "systemMonitorCustomColor": {
-    "r": 1,
-    "g": 1,
-    "b": 1,
-    "a": 1,
-    "hsvHue": -1,
-    "hsvSaturation": 0,
-    "hsvValue": 1,
-    "hslHue": -1,
-    "hslSaturation": 0,
-    "hslLightness": 1,
-    "valid": true,
-    "rgba": -1
-  },
   "builtInPluginSettings": {
     "dms_settings_search": {
       "trigger": "?"
@@ -327,5 +538,83 @@
       "trigger": "qrg"
     }
   },
-  "configVersion": 18
+  "configVersion": 42,
+  "radiusStrength": 38,
+  "blurBorderEnabled": true,
+  "dockConfigs": [
+    {
+      "id": "dock",
+      "name": "Dock",
+      "enabled": true,
+      "screenPreferences": [
+        "all"
+      ],
+      "showOnLastDisplay": true,
+      "position": 1,
+      "mode": "compact",
+      "taskbarAlign": "center",
+      "widgetExpansion": "popout",
+      "iconSize": 40,
+      "spacing": 12,
+      "itemSpacing": 4,
+      "margin": 12,
+      "bottomGap": 0,
+      "transparency": 1,
+      "followInterfaceStyle": true,
+      "autoHide": false,
+      "smartAutoHide": true,
+      "useOverlayLayer": false,
+      "editOnRightClick": false,
+      "showOnFullscreen": false,
+      "openOnOverview": false,
+      "groupByApp": false,
+      "separatePinnedAndRunningApps": false,
+      "restoreSpecialWorkspaceOnClick": false,
+      "isolateDisplays": false,
+      "indicatorStyle": "circle",
+      "borderEnabled": false,
+      "borderColor": "surfaceText",
+      "borderOpacity": 1,
+      "borderThickness": 1,
+      "launcherEnabled": true,
+      "launcherLogoMode": "os",
+      "launcherLogoCustomPath": "",
+      "launcherLogoColorOverride": "",
+      "launcherLogoSizeOffset": 10,
+      "launcherLogoBrightness": 0.5,
+      "launcherLogoContrast": 1,
+      "maxVisibleApps": 0,
+      "maxVisibleRunningApps": 0,
+      "showOverflowBadge": true,
+      "showTrash": false,
+      "trashFileManager": "nautilus",
+      "trashCustomCommand": "",
+      "magnification": false,
+      "magnificationScale": 130,
+      "magnificationProfile": "parabolic",
+      "magnificationExpand": false,
+      "order": [],
+      "widgets": [
+        {
+          "id": "dock_launcher",
+          "widgetId": "dockLauncher",
+          "enabled": true
+        },
+        {
+          "id": "dock_apps",
+          "widgetId": "appsDock",
+          "enabled": true
+        },
+        {
+          "id": "dock_trash",
+          "widgetId": "dockTrash",
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "blurBorderSeeded": true,
+  "dmsWindowsFloatingSeeded": [
+    "hyprland"
+  ]
 }

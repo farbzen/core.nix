@@ -1,21 +1,17 @@
-{
-  self,
-  inputs,
-  ...
-}: {
+{self, ...}: {
   flake.nixosModules.desktopHyprlandDux = {pkgs, ...}: {
-    imports = [
-      self.nixosModules.desktopCommon
+    imports = [self.nixosModules.desktopCommon];
 
-      inputs.dankcalendar.nixosModules.default
-    ];
-
-    services.displayManager = {
-      defaultSession = "hyprland-uwsm";
-      dux-greeter = {
-        enable = true;
-        compositor.name = "hyprland";
+    services = {
+      displayManager = {
+        defaultSession = "hyprland-uwsm";
+        dux-greeter = {
+          enable = true;
+          compositor.name = "hyprland";
+        };
       };
+
+      gvfs.enable = true;
     };
 
     programs = {
@@ -24,7 +20,19 @@
         withUWSM = true;
       };
 
-      dank-calendar.enable = true;
+      dux-calendar = {
+        enable = true;
+        systemd = {
+          enable = true;
+          restartIfChanged = true;
+        };
+      };
+
+      dux-files.enable = true;
+      dux-search = {
+        enable = true;
+        systemd.enable = true;
+      };
 
       dux-shell = {
         enable = true;
@@ -49,7 +57,6 @@
       hyprcursor
       libsForQt5.qt5ct
       mpv
-      nautilus
       nwg-look
       papirus-icon-theme
       pwvucontrol

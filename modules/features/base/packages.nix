@@ -13,7 +13,6 @@
       curl
       devenv
       dig
-      fuse2
       git
       gum
       herdr

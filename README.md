@@ -6,9 +6,10 @@
 
 _My personal NixOS configuration and dotfiles as a single flake._
 
-[![NixOS](https://img.shields.io/badge/NixOS-unstable-5277C3?style=flat-square&logo=nixos&logoColor=white)](https://nixos.org)
-[![Hyprland](https://img.shields.io/badge/Hyprland-UWSM-58E1FF?style=flat-square&logo=hyprland&logoColor=white)](https://hypr.land)
-[![Lua](https://img.shields.io/badge/Lua-dotfiles-2C2D72?style=flat-square&logo=lua&logoColor=white)](https://www.lua.org)
+[![NixOS](https://img.shields.io/badge/NixOS-unstable-5277C3?style=for-the-badge&labelColor=081216&logo=nixos&logoColor=white)](https://nixos.org)
+[![Hyprland](https://img.shields.io/badge/Hyprland-UWSM-58E1FF?style=for-the-badge&labelColor=081216&logo=hyprland&logoColor=white)](https://hypr.land)
+[![Lua](https://img.shields.io/badge/Lua-dotfiles-2C2D72?style=for-the-badge&labelColor=081216&logo=lua&logoColor=white)](https://www.lua.org)
+[![Ko-Fi donate](https://img.shields.io/badge/donate-kofi?style=for-the-badge&labelColor=081216&color=ee5556&logo=ko-fi&logoColor=white)](https://ko-fi.com/farbzen)
 
 [Overview](#overview) • [Features](#features) •
 [Getting Started](#getting-started) • [Usage](#usage) •
@@ -23,9 +24,9 @@ machine is mostly a list of imports, a disk layout and a hardware report.
 ## Overview
 
 The flake is built with [flake-parts](https://flake.parts) and loads every file
-below `modules/` automatically via [import-tree](https://github.com/vic/import-tree).
-Each file contributes `flake.nixosModules.*`, `flake.nixosConfigurations.*` or
-wrapped packages.
+below `modules/` automatically via
+[import-tree](https://github.com/vic/import-tree). Each file contributes
+`flake.nixosModules.*`, `flake.nixosConfigurations.*` or wrapped packages.
 
 The repository consists of the following parts:
 
@@ -42,8 +43,9 @@ The repository consists of the following parts:
   The code lives in `modules/features/editor/neovim.nix`, the Lua config in
   `dots/farbzen/dot-config/nvim/`.
 - **Dotfiles** – user configuration (Hyprland, DankMaterialShell, fish, kitty,
-  foot, tmux, yazi, …) managed with [GNU Stow](https://www.gnu.org/software/stow/).
-  The code lives in `dots/farbzen/`.
+  foot, tmux, yazi, …) managed with
+  [GNU Stow](https://www.gnu.org/software/stow/). The code lives in
+  `dots/farbzen/`.
 - **Secrets** – VPN credentials encrypted with
   [sops-nix](https://github.com/Mic92/sops-nix) and age. The files live in
   `.secrets/`.
@@ -53,7 +55,7 @@ The repository consists of the following parts:
 | `omegon` | Main workstation: Hyprland, Steam, QEMU, Docker, SSH, VPNs   |
 | `corax`  | Laptop with NVIDIA PRIME offload: Hyprland, Steam, WireGuard |
 | `vulkan` | GNOME desktop with NVIDIA and Steam                          |
-| `erda`   | Minimal live ISO with GNOME and the extra user `neoth`       |
+| `erda`   | Minimal live ISO with GNOME                                  |
 
 ## Features
 

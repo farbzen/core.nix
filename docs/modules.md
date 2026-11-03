@@ -31,22 +31,21 @@ imports the following modules:
 
 ## Optional modules
 
-| Module                      | File                                  | Purpose                                   | Hosts                     |
-| --------------------------- | ------------------------------------- | ----------------------------------------- | ------------------------- |
-| `bootEfi`                   | `features/boot/efi.nix`               | systemd-boot, quiet boot with Plymouth    | omegon, corax, vulkan     |
-| `bootBios`                  | `features/boot/bios.nix`              | GRUB on `/dev/sda`, quiet boot            | –                         |
-| `desktopHyprlandDux`        | `features/desktop/hyprland.nix`       | Hyprland (UWSM), dux shell and greeter    | omegon, corax             |
-| `desktopGnome`              | `features/desktop/gnome.nix`          | GNOME with GDM                            | vulkan, erda              |
-| `desktopCommon`             | `features/desktop/common.nix`         | 1Password, Chrome, Zen Browser            | via desktop modules       |
-| `gamingSteam`               | `features/gaming/steam.nix`           | Steam with open firewall ports            | omegon, corax, vulkan     |
-| `graphicsNvidia`            | `features/graphics/nvidia.nix`        | Proprietary NVIDIA driver                 | corax, vulkan             |
-| `graphicsIntelPreBroadwell` | `features/graphics/intel.nix`         | VA-API for older Intel GPUs               | –                         |
-| `serviceSSH`                | `features/service/ssh.nix`            | OpenSSH without root login                | omegon                    |
-| `vmQemu`                    | `features/virtualization/virtual-machines.nix` | libvirt and virt-manager         | omegon                    |
-| `vpnOpenVPNNurgle`          | `features/vpn/openvpn/nurgle.nix`     | OpenVPN profile from sops secrets         | omegon                    |
-| `vpnOpenVPNTzeentch`        | `features/vpn/openvpn/tzeentch.nix`   | OpenVPN profile from sops secrets         | omegon                    |
-| `vpnWireguardTerra`         | `features/vpn/wireguard/wireguard.nix`| WireGuard `wg-terra`, no autostart        | omegon, corax             |
-| `userNeoth`                 | `users/neoth.nix`                     | Secondary user                            | erda                      |
+| Module                      | File                                  | Purpose                                   |
+| --------------------------- | ------------------------------------- | ----------------------------------------- |
+| `bootEfi`                   | `features/boot/efi.nix`               | systemd-boot, quiet boot with Plymouth    |
+| `bootBios`                  | `features/boot/bios.nix`              | GRUB on `/dev/sda`, quiet boot            |
+| `desktopHyprlandDux`        | `features/desktop/hyprland.nix`       | Hyprland (UWSM), dux shell and greeter    |
+| `desktopGnome`              | `features/desktop/gnome.nix`          | GNOME with GDM                            |
+| `desktopCommon`             | `features/desktop/common.nix`         | 1Password, Chrome, Zen Browser            |
+| `gamingSteam`               | `features/gaming/steam.nix`           | Steam with open firewall ports            |
+| `graphicsNvidia`            | `features/graphics/nvidia.nix`        | Proprietary NVIDIA driver                 |
+| `graphicsIntelPreBroadwell` | `features/graphics/intel.nix`         | VA-API for older Intel GPUs               |
+| `serviceSSH`                | `features/service/ssh.nix`            | OpenSSH without root login                |
+| `vmQemu`                    | `features/virtualization/virtual-machines.nix` | libvirt and virt-manager         |
+| `vpnOpenVPNNurgle`          | `features/vpn/openvpn/nurgle.nix`     | OpenVPN profile from sops secrets         |
+| `vpnOpenVPNTzeentch`        | `features/vpn/openvpn/tzeentch.nix`   | OpenVPN profile from sops secrets         |
+| `vpnWireguardTerra`         | `features/vpn/wireguard/wireguard.nix`| WireGuard `wg-terra`, no autostart        |
 
 All paths are relative to `modules/`.
 
