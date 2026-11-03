@@ -554,10 +554,10 @@
       "mode": "compact",
       "taskbarAlign": "center",
       "widgetExpansion": "popout",
-      "iconSize": 40,
-      "spacing": 12,
-      "itemSpacing": 4,
-      "margin": 12,
+      "iconSize": 42,
+      "spacing": 8,
+      "itemSpacing": 8,
+      "margin": 8,
       "bottomGap": 0,
       "transparency": 1,
       "followInterfaceStyle": true,
@@ -603,7 +603,8 @@
         {
           "id": "dock_apps",
           "widgetId": "appsDock",
-          "enabled": true
+          "enabled": true,
+          "appsDockColorizeActive": false
         },
         {
           "id": "dock_trash",
@@ -616,5 +617,57 @@
   "blurBorderSeeded": true,
   "dmsWindowsFloatingSeeded": [
     "hyprland"
-  ]
+  ],
+  "dashCards": [
+    {
+      "id": "clock",
+      "w": 3,
+      "h": 1,
+      "col": 3,
+      "row": 0
+    },
+    {
+      "id": "weather",
+      "w": 1,
+      "h": 1
+    },
+    {
+      "id": "notifications",
+      "w": 3,
+      "h": 3,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "id": "calendar",
+      "w": 3,
+      "h": 3,
+      "col": 3,
+      "row": 1
+    },
+    {
+      "id": "media",
+      "w": 3,
+      "h": 1,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "id": "sysmon",
+      "w": 3,
+      "h": 1,
+      "col": 3,
+      "row": 4
+    },
+    {
+      "id": "user",
+      "w": 3,
+      "h": 1,
+      "col": 0,
+      "row": 0
+    }
+  ],
+  "dashOptions": {},
+  "enableFprint": true,
+  "greeterRememberLastSession": true
 }

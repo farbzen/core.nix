@@ -12,7 +12,21 @@
         mode = "0755";
       };
 
-      systemPackages = [inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default];
+      systemPackages = with pkgs; [
+        bazecor
+        discord
+        foot
+        gimp
+        inkscape
+        jellyfin-tui
+        libreoffice-stable
+        # linphonePackages.linphone-desktop
+        obsidian
+        signal-desktop
+        spotify
+
+        inputs.zen-browser.packages.${stdenv.hostPlatform.system}.default
+      ];
     };
   };
 }

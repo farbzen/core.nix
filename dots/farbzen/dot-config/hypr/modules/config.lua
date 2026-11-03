@@ -20,7 +20,7 @@ hl.config({
       enabled = true,
       offset = { 0, 5 },
       range = 30,
-      render_power = 5,
+      render_power = 4,
     },
   },
   dwindle = {

@@ -15,37 +15,25 @@
 
       extraGroups = ["networkmanager" "wheel" "dialout" "cdrom" "docker"];
       packages = with pkgs; [
-        bazecor
         btop
         claude-code
-        discord
         dua
         eza
         fish
-        foot
         fzf
         gh
-        gimp
         git
         glab
         glab-tui
         hyfetch
         hyperfine
         imagemagick
-        inkscape
-        jellyfin-tui
-        libreoffice-stable
-        # linphonePackages.linphone-desktop
         macchina
         mariadb
         nix-search-tv
-        obsidian
         pay-respects
         presenterm
         ripgrep
-        signal-desktop
-        spotatui
-        spotify
         starship
         stow
         vlc
