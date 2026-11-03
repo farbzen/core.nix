@@ -10,9 +10,6 @@ hl.window_rule({ match = { class = "^(org.wezfurlong.wezterm|Alacritty|zen|com.m
 -- DMS-RULE: id=dms_rule_3, name=Floating Config
 hl.window_rule({ match = { class = "^(com.saivert.pwvucontrol|nm-connection-editor)$" }, float = true })
 
--- DMS-RULE: id=dms_rule_4, name=Floating NARF
-hl.window_rule({ match = { title = "^(nixos_advanced_rebuild_flake)$" }, float = true, size = { 1600, 900 } })
-
 -- DMS-RULE: id=dms_rule_5, name=Floating Nix Search
 hl.window_rule({ match = { title = "^(nix_search_tv)$" }, float = true, size = { 1600, 900 } })
 
@@ -21,9 +18,6 @@ hl.window_rule({ match = { title = "Picture(-| )in(-| )[Pp]icture" }, float = tr
 
 -- DMS-RULE: id=dms_rule_7, name=Steam
 hl.window_rule({ match = { class = "^[Ss]team.*$" }, suppress_event = "maximize fullscreen fullscreenoutput" })
-
--- DMS-RULE: id=wr_1793742713522681415, name=Fuzzel blur
-hl.window_rule({ match = { class = "^fuzzel$" } })
 
 -- DMS-RULE: id=dms-window-opaque, name=DMS Window Opaque
 hl.window_rule({ match = { class = "^(dev\\.duxlabs\\.shell|com\\.danklinux\\.dms)$" }, opaque = true })
