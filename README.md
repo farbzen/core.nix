@@ -56,7 +56,6 @@ The repository consists of the following parts:
 | `omegon` | Main workstation: Hyprland, Steam, QEMU, Docker, SSH, VPNs   |
 | `corax`  | Laptop with NVIDIA PRIME offload: Hyprland, Steam, WireGuard |
 | `vulkan` | GNOME desktop with NVIDIA and Steam                          |
-| `erda`   | Minimal live ISO with GNOME                                  |
 
 ## Features
 
@@ -75,7 +74,6 @@ The repository consists of the following parts:
 
 ### Prerequisites
 
-- A machine booted into a NixOS installer (or the `erda` ISO)
 - Nix with `nix-command` and `flakes` enabled
 - The age key at `~/.config/sops/age/keys.txt` for hosts using VPN secrets
 
@@ -110,12 +108,6 @@ Apply the configuration of the current host:
 
 ```sh
 sudo nixos-rebuild switch --flake .#<host>
-```
-
-Build the live ISO:
-
-```sh
-nix build .#nixosConfigurations.erda.config.system.build.isoImage
 ```
 
 Edit an encrypted secret:
