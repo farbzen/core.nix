@@ -1,13 +1,12 @@
 <div align="center">
 
-<img src=".assets/logo.svg" alt="NixOS" width="256px" />
+<img src=".assets/logo.svg" alt="NixOS" width="128px" />
 
 # core.nix
 
 _My personal NixOS configuration and dotfiles as a single flake._
 
 [![NixOS](https://img.shields.io/badge/NixOS-unstable-5277C3?style=for-the-badge&labelColor=081216&logo=nixos&logoColor=white)](https://nixos.org)
-[![Hyprland](https://img.shields.io/badge/Hyprland-UWSM-58E1FF?style=for-the-badge&labelColor=081216&logo=hyprland&logoColor=white)](https://hypr.land)
 [![Lua](https://img.shields.io/badge/Lua-dotfiles-2C2D72?style=for-the-badge&labelColor=081216&logo=lua&logoColor=white)](https://www.lua.org)
 [![Ko-Fi donate](https://img.shields.io/badge/donate-kofi?style=for-the-badge&labelColor=081216&color=ee5556&logo=ko-fi&logoColor=white)](https://ko-fi.com/farbzen)
 
