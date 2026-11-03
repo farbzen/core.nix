@@ -7,7 +7,21 @@
         defaultSession = "hyprland";
         dux-greeter = {
           enable = true;
-          compositor.name = "hyprland";
+          compositor = {
+            name = "hyprland";
+            customConfig = ''
+              hl.env("DMS_RUN_GREETER", "1")
+              hl.config({
+                misc = {
+                  disable_hyprland_logo = true,
+                },
+                ecosystem = {
+                  no_update_news = true,
+                  no_donation_nag = true,
+                },
+              })
+            '';
+          };
         };
       };
 

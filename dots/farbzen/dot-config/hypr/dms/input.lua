@@ -7,7 +7,7 @@ hl.config({
 			tap_to_click = true,
 		},
 		kb_layout = "us",
-		kb_variant = "intl",
+		kb_variant = "altgr-intl",
 		numlock_by_default = false,
 	},
 })

@@ -710,6 +710,7 @@
   "terminalsAlwaysDark": true,
   "terminalPalette": "medium",
   "keyboardLayouts": "us",
-  "keyboardVariants": "intl",
-  "lockScreenVideoEnabled": true
+  "keyboardVariants": "altgr-intl",
+  "lockScreenVideoEnabled": false,
+  "lockScreenVideoPath": ""
 }
