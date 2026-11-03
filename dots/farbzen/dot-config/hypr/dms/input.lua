@@ -6,5 +6,8 @@ hl.config({
 			natural_scroll = true,
 			tap_to_click = true,
 		},
+		kb_layout = "us",
+		kb_variant = "intl",
+		numlock_by_default = false,
 	},
 })

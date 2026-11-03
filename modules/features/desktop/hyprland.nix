@@ -11,7 +11,16 @@
         };
       };
 
+      fprintd.enable = true;
       gvfs.enable = true;
+    };
+
+    systemd.user.services = let
+      skipForGreeter.unitConfig.ConditionUser = "!dms-greeter";
+    in {
+      dms = skipForGreeter;
+      dcal = skipForGreeter;
+      dsearch = skipForGreeter;
     };
 
     programs = {

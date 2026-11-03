@@ -708,5 +708,8 @@
   "hyprlandGroupbarTextPadding": 0,
   "displayProfileAutoSelect": false,
   "terminalsAlwaysDark": true,
-  "terminalPalette": "medium"
+  "terminalPalette": "medium",
+  "keyboardLayouts": "us",
+  "keyboardVariants": "intl",
+  "lockScreenVideoEnabled": true
 }

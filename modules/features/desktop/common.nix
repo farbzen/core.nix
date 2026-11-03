@@ -6,6 +6,8 @@
       google-chrome.enable = true;
     };
 
+    nixpkgs.config.permittedInsecurePackages = ["mbedtls-3.6.1-unstable-2025-08-11"];
+
     environment = {
       etc."1password/custom_allowed_browsers" = {
         text = "zen";
@@ -20,7 +22,7 @@
         inkscape
         jellyfin-tui
         libreoffice-stable
-        # linphonePackages.linphone-desktop
+        linphonePackages.linphone-desktop
         obsidian
         signal-desktop
         spotify
