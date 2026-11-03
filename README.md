@@ -67,8 +67,8 @@ The repository consists of the following parts:
 - **Encrypted secrets**: OpenVPN and WireGuard configs are rendered from sops
   templates at activation time.
 - **Binary cache**: builds are pulled from `farbzen.cachix.org`.
-- **Hyprland desktop**: Hyprland via UWSM with DankMaterialShell, greeter and
-  switchable monitor profiles.
+- **Hyprland desktop**: Hyprland with DankMaterialShell, greeter and switchable
+  monitor profiles.
 
 ## Getting Started
 

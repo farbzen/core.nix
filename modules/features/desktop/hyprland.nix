@@ -4,7 +4,7 @@
 
     services = {
       displayManager = {
-        defaultSession = "hyprland-uwsm";
+        defaultSession = "hyprland";
         dux-greeter = {
           enable = true;
           compositor.name = "hyprland";
@@ -15,11 +15,7 @@
     };
 
     programs = {
-      hyprland = {
-        enable = true;
-        withUWSM = true;
-      };
-
+      hyprland.enable = true;
       dux-calendar = {
         enable = true;
         systemd = {

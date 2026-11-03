@@ -6,11 +6,23 @@ hl.config({
 		gaps_out = 10,
 		border_size = 0,
 		resize_on_border = false,
+		layout = "scrolling",
+	},
+	scrolling = {
+		direction = "right",
+		column_width = 0.5,
+		fullscreen_on_one_column = true,
+		follow_focus = true,
 	},
 	decoration = {
 		rounding = 12,
 		blur = {
 			passes = 2,
+		},
+		wobble = {
+			enabled = true,
+			intensity = 0.1,
+			stiffness = 100,
 		},
 	},
 })

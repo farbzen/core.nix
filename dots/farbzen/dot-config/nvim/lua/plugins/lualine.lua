@@ -56,14 +56,7 @@ return {
             },
           },
           lualine_c = { "navic" },
-          lualine_y = {
-            {
-              "",
-              draw_empty = true,
-              separator = {
-                left = "",
-              },
-            },
+          lualine_x = {
             {
               noice_status.get,
               fmt = function(str)
@@ -73,6 +66,15 @@ return {
 
                 return ""
               end,
+            },
+          },
+          lualine_y = {
+            {
+              "",
+              draw_empty = true,
+              separator = {
+                left = "",
+              },
             },
             {
               function()
@@ -87,6 +89,7 @@ return {
                 return ""
               end,
             },
+            "tacho",
           },
           lualine_z = {
             {
@@ -94,7 +97,7 @@ return {
               draw_empty = true,
               separator = { left = "" },
             },
-            "tacho",
+            "progress",
           },
         },
         sections = {
@@ -219,7 +222,6 @@ return {
               },
             },
             "location",
-            "progress",
             {
               "fileformat",
               color = { fg = "black" },

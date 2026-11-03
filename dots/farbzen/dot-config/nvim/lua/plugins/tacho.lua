@@ -3,7 +3,8 @@ return {
   lazy = false,
   after = function()
     require("tacho").setup({
-      -- statusline_format = "{live_wpm} / {wpm}",
+      idle_timeout_ms = 1000,
+      statusline_format = "󰼭 {wpm}",
     })
   end,
 }

@@ -44,30 +44,6 @@
       "small": true
     },
     {
-      "id": "battery",
-      "enabled": true,
-      "w": 2,
-      "h": 1
-    },
-    {
-      "id": "wifi",
-      "enabled": true,
-      "w": 2,
-      "h": 1
-    },
-    {
-      "id": "bluetooth",
-      "enabled": true,
-      "w": 2,
-      "h": 1
-    },
-    {
-      "id": "doNotDisturb",
-      "enabled": true,
-      "w": 2,
-      "h": 1
-    },
-    {
       "id": "brightnessSlider",
       "enabled": true,
       "w": 4,
@@ -75,6 +51,18 @@
     },
     {
       "id": "volumeSlider",
+      "enabled": true,
+      "w": 4,
+      "h": 1
+    },
+    {
+      "id": "wifi",
+      "enabled": true,
+      "w": 4,
+      "h": 1
+    },
+    {
+      "id": "bluetooth",
       "enabled": true,
       "w": 4,
       "h": 1
@@ -92,20 +80,54 @@
       "h": 1
     },
     {
+      "id": "darkMode",
+      "enabled": true,
+      "w": 2,
+      "h": 1
+    },
+    {
+      "id": "nightMode",
+      "enabled": true,
+      "w": 2,
+      "h": 1
+    },
+    {
+      "id": "doNotDisturb",
+      "enabled": true,
+      "w": 2,
+      "h": 1
+    },
+    {
+      "id": "idleInhibitor",
+      "enabled": true,
+      "w": 2,
+      "h": 1
+    },
+    {
+      "id": "battery",
+      "enabled": true,
+      "w": 4,
+      "h": 1
+    },
+    {
+      "id": "diskUsage",
+      "enabled": true,
+      "w": 4,
+      "h": 1
+    },
+    {
+      "id": "runningApps",
+      "enabled": true,
+      "w": 7,
+      "h": 1,
+      "small": true
+    },
+    {
       "id": "edit",
       "enabled": true,
       "w": 1,
       "h": 1,
       "small": true
-    },
-    {
-      "id": "runningApps",
-      "enabled": true,
-      "w": 4,
-      "h": 1,
-      "small": true,
-      "col": 0,
-      "row": 5
     }
   ],
   "mediaExcludePlayers": [
@@ -130,7 +152,7 @@
       "hideAfterInactiveMs": 0
     },
     "hyprland": {
-      "hideOnKeyPress": false,
+      "hideOnKeyPress": true,
       "hideOnTouch": false,
       "inactiveTimeout": 0
     },
@@ -332,7 +354,8 @@
       ],
       "islandHomeVolumeDisplay": "both",
       "followInterfaceStyle": false,
-      "widgetFollowInterfaceStyle": false
+      "widgetFollowInterfaceStyle": false,
+      "islandMediaAutoSwitch": true
     },
     {
       "id": "dot1793699271733",
@@ -560,7 +583,7 @@
       "margin": 8,
       "bottomGap": 0,
       "transparency": 1,
-      "followInterfaceStyle": true,
+      "followInterfaceStyle": false,
       "autoHide": false,
       "smartAutoHide": true,
       "useOverlayLayer": false,
@@ -669,5 +692,21 @@
   ],
   "dashOptions": {},
   "enableFprint": true,
-  "greeterRememberLastSession": true
+  "greeterRememberLastSession": true,
+  "hyprlandTilingLayout": "scrolling",
+  "hyprlandBlurVariant": "kawase",
+  "hyprlandGroupbarBlur": false,
+  "hyprlandWobbleEnabled": true,
+  "hyprlandMotionBlurEnabled": false,
+  "popupTransparency": 1,
+  "hyprlandGlowEnabled": false,
+  "hyprlandMotionBlurSamples": 10,
+  "hyprlandWobbleIntensity": 10,
+  "hyprlandWobbleStiffness": 100,
+  "hyprlandGlowRange": 10,
+  "hyprlandGlowRenderPower": 3,
+  "hyprlandGroupbarTextPadding": 0,
+  "displayProfileAutoSelect": false,
+  "terminalsAlwaysDark": true,
+  "terminalPalette": "medium"
 }

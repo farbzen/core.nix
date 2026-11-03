@@ -35,7 +35,7 @@ imports the following modules:
 | --------------------------- | ------------------------------------- | ----------------------------------------- |
 | `bootEfi`                   | `features/boot/efi.nix`               | systemd-boot, quiet boot with Plymouth    |
 | `bootBios`                  | `features/boot/bios.nix`              | GRUB on `/dev/sda`, quiet boot            |
-| `desktopHyprlandDux`        | `features/desktop/hyprland.nix`       | Hyprland (UWSM), dux shell and greeter    |
+| `desktopHyprlandDux`        | `features/desktop/hyprland.nix`       | Hyprland, dux shell and greeter    |
 | `desktopGnome`              | `features/desktop/gnome.nix`          | GNOME with GDM                            |
 | `desktopCommon`             | `features/desktop/common.nix`         | 1Password, Chrome, Zen Browser            |
 | `gamingSteam`               | `features/gaming/steam.nix`           | Steam with open firewall ports            |
