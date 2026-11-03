@@ -19,6 +19,7 @@ hl.config({
 })
 
 hl.layer_rule({ match = { namespace = "dms" }, no_anim = true })
+hl.layer_rule({ match = { namespace = "launcher" }, blur = true, ignore_alpha = 0 })
 
 require("dms.colors")
 -- require("dms.outputs")

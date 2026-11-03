@@ -21,7 +21,6 @@
           bufferline-nvim
           cellular-automaton-nvim
           claudecode-nvim
-          codewindow-nvim
           conform-nvim
           crates-nvim
           direnv-vim
@@ -32,6 +31,7 @@
           lualine-nvim
           lze
           lzextras
+          mini-map
           neotest
           neotest-plenary
           neotest-python

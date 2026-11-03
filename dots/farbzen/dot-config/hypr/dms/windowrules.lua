@@ -22,5 +22,8 @@ hl.window_rule({ match = { title = "Picture(-| )in(-| )[Pp]icture" }, float = tr
 -- DMS-RULE: id=dms_rule_7, name=Steam
 hl.window_rule({ match = { class = "^[Ss]team.*$" }, suppress_event = "maximize fullscreen fullscreenoutput" })
 
+-- DMS-RULE: id=wr_1793742713522681415, name=Fuzzel blur
+hl.window_rule({ match = { class = "^fuzzel$" } })
+
 -- DMS-RULE: id=dms-window-opaque, name=DMS Window Opaque
 hl.window_rule({ match = { class = "^(dev\\.duxlabs\\.shell|com\\.danklinux\\.dms)$" }, opaque = true })
