@@ -60,6 +60,7 @@
       nwg-look
       papirus-icon-theme
       pwvucontrol
+      python3
       qalculate-gtk
       qt6Packages.qt6ct
       wl-clipboard

@@ -63,5 +63,11 @@
     "enabled": true,
     "scanSubdirectories": true,
     "selectedDeviceId": "293be3a538434827a01f04e2f36edb8a"
+  },
+  "discordVoice": {
+    "enabled": true
+  },
+  "quickCapture": {
+    "enabled": true
   }
 }

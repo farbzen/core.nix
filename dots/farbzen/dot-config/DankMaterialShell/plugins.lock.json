@@ -3,21 +3,21 @@
   "plugins": {
     "claudeCodeUsage": {
       "repo": "https://github.com/titeya/dms-claudecode",
-      "commit": "20a936f20c4785647a8317c9f60e7b168ca25b5b"
+      "commit": "d83dd137ee68480b85c733f5920fa24e6f9904b5"
     },
     "colorPickerDms": {
       "repo": "https://github.com/bernardopg/color-picker-dms",
-      "commit": "8fae34470097b6c78eeed1ea45d98a572b1acdfd"
+      "commit": "b16ec4b3aefddfadac25c94275c4ff494ce1cd62"
     },
     "dankHyprlandWindows": {
       "repo": "https://github.com/AvengeMedia/dms-plugins",
       "path": "DankHyprlandWindows",
-      "commit": "e8c36175a1a8ee4718df5d8ef60d105add94f33e"
+      "commit": "be0b733a4036e0d1e5b3a1f11933569e61719be3"
     },
     "dankKDEConnect": {
       "repo": "https://github.com/AvengeMedia/dms-plugins",
       "path": "DankKDEConnect",
-      "commit": "e8c36175a1a8ee4718df5d8ef60d105add94f33e"
+      "commit": "be0b733a4036e0d1e5b3a1f11933569e61719be3"
     },
     "dcalUpcoming": {
       "repo": "https://github.com/leoamaro01/dms-dcal",
@@ -25,11 +25,11 @@
     },
     "emojiLauncher": {
       "repo": "https://github.com/devnullvoid/dms-emoji-launcher",
-      "commit": "1c0a7d337a52b48f9499060076703a35e8dd4f4f"
+      "commit": "fc385900e6df292f0a7e5bdda4e3e37169897d7c"
     },
     "usbManager": {
       "repo": "https://github.com/NordicsSys/dms-usb-manager",
-      "commit": "4dd61c1aa277a280fc05131342bc1cf3936a2a86"
+      "commit": "483d97c108314b1cf0c5df62141517e79636d937"
     },
     "wallpaperDiscovery": {
       "repo": "https://github.com/lucyfire/dms-plugins",

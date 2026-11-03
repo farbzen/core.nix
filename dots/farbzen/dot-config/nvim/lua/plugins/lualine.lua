@@ -88,14 +88,13 @@ return {
               end,
             },
           },
-          lualine_y = { "tacho" },
           lualine_z = {
             {
               "",
               draw_empty = true,
               separator = { left = "" },
             },
-            "progress",
+            "tacho",
           },
         },
         sections = {
@@ -220,6 +219,7 @@ return {
               },
             },
             "location",
+            "progress",
             {
               "fileformat",
               color = { fg = "black" },

@@ -53,37 +53,18 @@
           nvim-surround
           nvim-treesitter.withAllGrammars
           nvim-web-devicons
+          pentatonic-nvim
           persistence-nvim
           plenary-nvim
           rose-pine
           rustaceanvim
           snacks-nvim
+          tacho-nvim
           tiny-inline-diagnostic-nvim
           todo-comments-nvim
           typescript-tools-nvim
           vim-sleuth
           which-key-nvim
-
-          (pkgs.vimUtils.buildVimPlugin {
-            pname = "pentatonic.nvim";
-            version = "0.2.0";
-            src = pkgs.fetchFromGitHub {
-              owner = "farbzen";
-              repo = "pentatonic.nvim";
-              rev = "b72813ffde501364082dcefea9b0ecb31d06a26f";
-              hash = "sha256-gxbivfj246xXqgE1QMwBSxmN3nikkLPNMNwywtj5iN8=";
-            };
-          })
-          (pkgs.vimUtils.buildVimPlugin {
-            pname = "tacho.nvim";
-            version = "0.1.0";
-            src = pkgs.fetchFromGitHub {
-              owner = "farbzen";
-              repo = "tacho.nvim";
-              rev = "c67ed3d485442ba1af57951444ce141fff5f4480";
-              hash = "sha256-lJbf9T6EsVYSadYn1aRprFgVWtwe7CEqdnCmUUE9K1M=";
-            };
-          })
         ];
 
         lazy = {
