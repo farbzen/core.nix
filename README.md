@@ -7,6 +7,7 @@
 _My personal NixOS configuration and dotfiles as a single flake._
 
 [![NixOS](https://img.shields.io/badge/NixOS-unstable-5277C3?style=for-the-badge&labelColor=081216&logo=nixos&logoColor=white)](https://nixos.org)
+[![Nix Flakes](https://img.shields.io/badge/Nix-flakes-7EBAE4?style=for-the-badge&labelColor=081216&logo=nixos&logoColor=white)](https://wiki.nixos.org/wiki/Flakes)
 [![Lua](https://img.shields.io/badge/Lua-dotfiles-2C2D72?style=for-the-badge&labelColor=081216&logo=lua&logoColor=white)](https://www.lua.org)
 [![Ko-Fi donate](https://img.shields.io/badge/donate-kofi?style=for-the-badge&labelColor=081216&color=ee5556&logo=ko-fi&logoColor=white)](https://ko-fi.com/farbzen)
 
