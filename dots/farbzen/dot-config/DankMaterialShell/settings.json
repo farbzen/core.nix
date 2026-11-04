@@ -644,9 +644,9 @@
   "dashCards": [
     {
       "id": "clock",
-      "w": 3,
+      "w": 2,
       "h": 1,
-      "col": 3,
+      "col": 0,
       "row": 0
     },
     {
@@ -657,15 +657,15 @@
     {
       "id": "notifications",
       "w": 3,
-      "h": 3,
-      "col": 0,
-      "row": 2
+      "h": 5,
+      "col": 3,
+      "row": 0
     },
     {
       "id": "calendar",
       "w": 3,
       "h": 3,
-      "col": 3,
+      "col": 0,
       "row": 1
     },
     {
@@ -673,20 +673,13 @@
       "w": 3,
       "h": 1,
       "col": 0,
-      "row": 1
-    },
-    {
-      "id": "sysmon",
-      "w": 3,
-      "h": 1,
-      "col": 3,
       "row": 4
     },
     {
-      "id": "user",
-      "w": 3,
+      "id": "sysmon",
+      "w": 1,
       "h": 1,
-      "col": 0,
+      "col": 2,
       "row": 0
     }
   ],
@@ -712,5 +705,6 @@
   "keyboardLayouts": "us",
   "keyboardVariants": "altgr-intl",
   "lockScreenVideoEnabled": false,
-  "lockScreenVideoPath": ""
+  "lockScreenVideoPath": "",
+  "displaySnapToEdge": true
 }
