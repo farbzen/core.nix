@@ -25,11 +25,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1793695536,
-        "narHash": "sha256-QcJe4frLrfEjf1lvqd9iaP3kNdcpcD7/7GFjmmoGfxs=",
+        "lastModified": 1793786790,
+        "narHash": "sha256-fFnkgwQLjdPZmvWmF4C5Ir3ia4Pq6oP6TPfvggJin4o=",
         "owner": "farbzen",
         "repo": "nur.nix",
-        "rev": "caa52476033c2d243f6714a2ede1c486af96ddd2",
+        "rev": "5743e9e851cb64bdca50220b733a6ea5e3afd209",
         "type": "github"
       },
       "original": {
