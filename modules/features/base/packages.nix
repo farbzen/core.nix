@@ -30,7 +30,7 @@
       wget
       zip
 
-      inputs.farbzen-nur.packages.${stdenv.hostPlatform.system}.narf
+      nur.repos.farbzen.narf
     ];
 
     fonts.packages = with pkgs; [

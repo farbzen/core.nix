@@ -30,7 +30,7 @@
             thunderbird
             tpm2-tss
 
-            inputs.farbzen-nur.packages.${stdenv.hostPlatform.system}.mixedupmh
+            nur.repos.farbzen.mixedupmh
           ];
 
           virtualisation.docker.enable = true;

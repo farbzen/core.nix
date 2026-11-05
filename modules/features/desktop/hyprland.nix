@@ -64,27 +64,30 @@
       kdeconnect.enable = true;
     };
 
-    environment.systemPackages = with pkgs; [
-      adwaita-qt
-      bibata-cursors
-      cups-pk-helper
-      feh
-      fuzzel
-      gnome-themes-extra
-      gpu-screen-recorder
-      gtk4
-      hyprcursor
-      libsForQt5.qt5ct
-      mpv
-      nwg-look
-      papirus-icon-theme
-      pwvucontrol
-      python3
-      qalculate-gtk
-      qt6Packages.qt6ct
-      wl-clipboard
-      xarchiver
-      xclip
-    ];
+    environment = {
+      sessionVariables.NIXOS_OZONE_WL = "1";
+      systemPackages = with pkgs; [
+        adwaita-qt
+        bibata-cursors
+        cups-pk-helper
+        feh
+        fuzzel
+        gnome-themes-extra
+        gpu-screen-recorder
+        gtk4
+        hyprcursor
+        libsForQt5.qt5ct
+        mpv
+        nwg-look
+        papirus-icon-theme
+        pwvucontrol
+        python3
+        qalculate-gtk
+        qt6Packages.qt6ct
+        wl-clipboard
+        xarchiver
+        xclip
+      ];
+    };
   };
 }

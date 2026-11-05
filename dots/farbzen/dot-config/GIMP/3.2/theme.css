@@ -5,8 +5,8 @@
  * gimp.css file instead (/home/farbzen/.config/GIMP/3.2/gimp.css).
  */
 
-@import url("file:///nix/store/qhf3dmy7nvi85hcjrz43254ryfyz92zf-gimp-3.2.6/share/gimp/3.0/themes/Default/gimp-dark.css");
-@import url("file:///nix/store/qhf3dmy7nvi85hcjrz43254ryfyz92zf-gimp-3.2.6/etc/gimp/3.0/gimp.css");
+@import url("file:///nix/store/vgvxnm95mfnwqvfq5bn3lw1vy3rlyz8k-gimp-3.2.6/share/gimp/3.0/themes/Default/gimp-dark.css");
+@import url("file:///nix/store/vgvxnm95mfnwqvfq5bn3lw1vy3rlyz8k-gimp-3.2.6/etc/gimp/3.0/gimp.css");
 
 * { -gtk-icon-style: symbolic; }
 

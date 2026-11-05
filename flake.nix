@@ -3,8 +3,6 @@
 
   inputs = {
     disko.url = "github:nix-community/disko";
-    farbzen-nur.url = "github:farbzen/nur.nix";
-    flake-parts.url = "github:hercules-ci/flake-parts";
     import-tree.url = "github:vic/import-tree";
     nixarr.url = "github:nix-media-server/nixarr";
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";

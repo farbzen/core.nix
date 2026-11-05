@@ -7,8 +7,18 @@
         auto-optimise-store = true;
         experimental-features = ["nix-command" "flakes"];
         trusted-users = ["@wheel"];
-        extra-substituters = ["https://farbzen.cachix.org"];
-        extra-trusted-public-keys = ["farbzen.cachix.org-1:8KQga60LYPZVg0E4iKZgQhTmI5dV38Mb9iSuryp8BoY="];
+        extra-substituters = [
+          "https://farbzen.cachix.org"
+          "https://hyprland.cachix.org"
+        ];
+        extra-trusted-substituters = [
+          "https://farbzen.cachix.org"
+          "https://hyprland.cachix.org"
+        ];
+        extra-trusted-public-keys = [
+          "farbzen.cachix.org-1:8KQga60LYPZVg0E4iKZgQhTmI5dV38Mb9iSuryp8BoY="
+          "hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="
+        ];
       };
 
       gc = {
