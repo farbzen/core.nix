@@ -29,3 +29,6 @@
 
 # Hyprland startup commands
 /dots/farbzen/dot-config/hypr/startup.lua
+
+# Claude Code
+/.claude
