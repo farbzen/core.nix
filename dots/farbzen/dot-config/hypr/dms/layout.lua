@@ -19,11 +19,6 @@ hl.config({
 		blur = {
 			passes = 2,
 		},
-		wobble = {
-			enabled = true,
-			intensity = 0.1,
-			stiffness = 100,
-		},
 	},
 })
 

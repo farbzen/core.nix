@@ -71,7 +71,6 @@
           lazy = true;
           data = with pkgs.vimPlugins; [
             lazygit-nvim
-            orgmode
             render-markdown-nvim
           ];
         };
