@@ -1,9 +1,17 @@
 # GIMP gimp-path-tool options
 
-(brush "2. Hardness 050")
+(foreground
+    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+(background
+    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+(brush "2. Hardness 100")
 (dynamics "Pressure Size")
 (pattern "Starfield")
-(gradient "Skyline")
+(gradient "Custom")
 (palette "Standard")
+(enable-fill no)
+(stroke-foreground
+    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+(stroke-miter-limit 0)
 
 # end of gimp-path-tool options

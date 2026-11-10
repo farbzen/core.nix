@@ -1,4 +1,8 @@
 # GIMP gimp-fuzzy-select-tool options
 
+(antialias no)
+(feather-radius 15)
+(threshold 70.5)
+(select-criterion alpha)
 
 # end of gimp-fuzzy-select-tool options

@@ -3,8 +3,8 @@
 
   inputs = {
     disko.url = "github:nix-community/disko";
+    flake-parts.url = "github:hercules-ci/flake-parts";
     import-tree.url = "github:vic/import-tree";
-    nixarr.url = "github:nix-media-server/nixarr";
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nix-index-database.url = "github:nix-community/nix-index-database";
     nur.url = "github:nix-community/NUR";
@@ -14,7 +14,6 @@
 
     disko.inputs.nixpkgs.follows = "nixpkgs";
     flake-parts.inputs.nixpkgs-lib.follows = "nixpkgs";
-    nixarr.inputs.nixpkgs.follows = "nixpkgs";
     nix-index-database.inputs.nixpkgs.follows = "nixpkgs";
     nur.inputs.nixpkgs.follows = "nixpkgs";
     sops.inputs.nixpkgs.follows = "nixpkgs";

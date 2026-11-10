@@ -1,7 +1,12 @@
 # GIMP gimp-gradient-tool options
 
-(gradient "Skyline")
+(foreground
+    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+(background
+    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+(gradient "Custom")
 (brush-size 51)
 (brush-hardness 0.5)
+(gradient-type bilinear)
 
 # end of gimp-gradient-tool options

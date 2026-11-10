@@ -355,7 +355,10 @@
       "islandHomeVolumeDisplay": "both",
       "followInterfaceStyle": false,
       "widgetFollowInterfaceStyle": false,
-      "islandMediaAutoSwitch": true
+      "islandMediaAutoSwitch": true,
+      "islandNotch": true,
+      "islandPlacement": "free",
+      "islandRouteLauncher": "follow"
     },
     {
       "id": "dot1793699271733",
@@ -706,5 +709,7 @@
   "keyboardVariants": "altgr-intl",
   "lockScreenVideoEnabled": false,
   "lockScreenVideoPath": "",
-  "displaySnapToEdge": true
+  "displaySnapToEdge": true,
+  "springBounce": 2,
+  "motionEffect": 3
 }

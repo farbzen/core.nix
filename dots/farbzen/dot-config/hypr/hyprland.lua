@@ -19,6 +19,16 @@ hl.config({
 
 hl.layer_rule({ match = { namespace = "dms" }, no_anim = true })
 hl.layer_rule({ match = { namespace = "launcher" }, blur = true, ignore_alpha = 0 })
+hl.layer_rule({ no_screen_share = true, match = { namespace = "(dms:dankisland:dismiss)" } })
+
+hl.animation({
+  bezier = "default",
+  enabled = true,
+  leaf = "workspaces",
+  speed = 6,
+  spring = 6,
+  style = "slidefade 20%",
+})
 
 require("dms.colors")
 require("dms.layout")

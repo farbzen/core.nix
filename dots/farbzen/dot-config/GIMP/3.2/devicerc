@@ -5,6 +5,10 @@
     (name "Core Pointer")
     (tool-options "GimpBucketFillOptions"
         (tool "gimp-bucket-fill-tool")
+        (foreground
+            (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+        (background
+            (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
         (pattern "Starfield")
         (brush-size 51)
         (brush-hardness 0.5))

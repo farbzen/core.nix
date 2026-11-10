@@ -17,7 +17,6 @@ return {
   { import = "plugins.neotest" },
   { import = "plugins.neo-tree" },
   { import = "plugins.noice" },
-  { import = "plugins.orgmode" },
   { import = "plugins.pentatonic" },
   { import = "plugins.persistence" },
   { import = "plugins.render-markdown" },

@@ -12,7 +12,7 @@
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
     (position 0 -140)
-    (size 1260 1378)
+    (size 2530 1380)
     (monitor 1)
     (open-on-exit)
     (aux-info
@@ -24,6 +24,13 @@
     (gimp-dock
         (side right)
         (book
+            (current-page 0)
+            (dockable "gimp-color-editor"
+                (tab-style preview)
+                (aux-info
+                    (current-page "GimpColorSelect"))))
+        (book
+            (position 481)
             (current-page 0)
             (dockable "gimp-tool-options"
                 (locked)
@@ -47,7 +54,7 @@
                 (aux-info
                     (show-button-bar "true"))))
         (book
-            (position 684)
+            (position 796)
             (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style icon)
@@ -103,7 +110,7 @@
     (monitor 1))
 (session-info "toplevel"
     (factory-entry "gimp-operation-tool-dialog")
-    (position 0 -140)
+    (position 0 -93)
     (monitor 1))
 
 (hide-docks no)
