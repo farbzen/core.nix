@@ -578,6 +578,7 @@
       "showOnLastDisplay": true,
       "position": 1,
       "mode": "compact",
+      "middleClickAction": "close",
       "taskbarAlign": "center",
       "widgetExpansion": "popout",
       "iconSize": 42,
@@ -711,5 +712,22 @@
   "lockScreenVideoPath": "",
   "displaySnapToEdge": true,
   "springBounce": 2,
-  "motionEffect": 3
+  "motionEffect": 3,
+  "powerMenuGridLayout": true,
+  "powerMenuFirmwareSetup": false,
+  "powerMenuActions": [
+    "reboot",
+    "logout",
+    "poweroff",
+    "lock",
+    "suspend",
+    "restart",
+    "switchuser",
+    "hibernate",
+    "softreboot"
+  ],
+  "batteryCriticalNotificationType": 0,
+  "batteryProfileName": "1",
+  "acProfileName": "2",
+  "batteryAutoPowerSaver": true
 }

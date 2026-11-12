@@ -3,22 +3,15 @@
 (GimpDeviceInfo "Core Pointer"
     (icon-name "gimp-cursor")
     (name "Core Pointer")
-    (tool-options "GimpBucketFillOptions"
-        (tool "gimp-bucket-fill-tool")
-        (foreground
-            (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
-        (background
-            (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
-        (pattern "Starfield")
-        (brush-size 51)
-        (brush-hardness 0.5))
-    (use-fg-bg yes)
+    (tool-options "GimpMoveOptions"
+        (tool "gimp-move-tool"))
+    (use-fg-bg no)
     (use-opacity-paint-mode no)
     (use-brush no)
     (use-dynamics no)
     (use-mypaint-brush no)
     (use-gradient no)
-    (use-pattern yes)
+    (use-pattern no)
     (use-palette no)
     (use-font no)
     (mode screen)

@@ -1,4 +1,4 @@
-{inputs, ...}: {
+{
   flake.nixosModules.basePackages = {
     lib,
     pkgs,
@@ -30,6 +30,7 @@
       wget
       zip
 
+      nur.repos.farbzen.hive
       nur.repos.farbzen.narf
     ];
 

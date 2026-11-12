@@ -1,9 +1,9 @@
 # GIMP user context
 
-(tool "gimp-bucket-fill-tool")
+(tool "gimp-move-tool")
 (paint-info "gimp-paintbrush")
 (foreground
-    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\200\77\0\0\200\77" 0))
 (background
     (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
 (brush "2. Hardness 100")

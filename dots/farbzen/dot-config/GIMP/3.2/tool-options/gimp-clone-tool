@@ -1,7 +1,7 @@
 # GIMP gimp-clone-tool options
 
 (foreground
-    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\200\77\0\0\200\77" 0))
 (background
     (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
 (brush "2. Hardness 100")
