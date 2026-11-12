@@ -20,9 +20,7 @@
         foot
         gimp
         inkscape
-        jellyfin-tui
         libreoffice-stable
-        linphonePackages.linphone-desktop
         obsidian
         signal-desktop
         spotify

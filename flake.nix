@@ -4,6 +4,7 @@
   inputs = {
     disko.url = "github:nix-community/disko";
     flake-parts.url = "github:hercules-ci/flake-parts";
+    hyprland.url = "github:hyprwm/Hyprland";
     import-tree.url = "github:vic/import-tree";
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nix-index-database.url = "github:nix-community/nix-index-database";

@@ -29,8 +29,6 @@
             teams-for-linux
             thunderbird
             tpm2-tss
-
-            nur.repos.farbzen.mixedupmh
           ];
 
           virtualisation.docker.enable = true;

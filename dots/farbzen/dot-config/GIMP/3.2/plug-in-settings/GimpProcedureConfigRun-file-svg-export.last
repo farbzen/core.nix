@@ -1,0 +1,5 @@
+# settings
+
+(raster-export-format "png")
+
+# end of settings

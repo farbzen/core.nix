@@ -1,4 +1,8 @@
-{self, ...}: {
+{
+  inputs,
+  self,
+  ...
+}: {
   flake.nixosModules.desktopHyprlandDux = {pkgs, ...}: {
     imports = [self.nixosModules.desktopCommon];
 
@@ -38,7 +42,12 @@
     };
 
     programs = {
-      hyprland.enable = true;
+      hyprland = {
+        enable = true;
+        package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
+        portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
+      };
+
       dux-calendar = {
         enable = true;
         systemd = {

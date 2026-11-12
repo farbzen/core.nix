@@ -2,7 +2,7 @@
 # 
 # This is your personal gimprc file.  Any variable defined in this file takes
 # precedence over the value defined in the system-wide gimprc:
-# /nix/store/dvqqc1v9lx1vhf42lhy5ih9h87b8l08r-gimp-3.2.6/etc/gimp/3.0/gimprc
+# /nix/store/vgvxnm95mfnwqvfq5bn3lw1vy3rlyz8k-gimp-3.2.6/etc/gimp/3.0/gimprc
 # Most values can be set within GIMP by changing some options in the
 # Preferences dialog.
 
@@ -15,8 +15,8 @@
 (thumbnail-size large)
 (import-add-alpha yes)
 (import-raw-plug-in "${gimp_plug_in_dir}/plug-ins/file-raw-placeholder/file-raw-placeholder")
-(monitor-xresolution 108)
-(monitor-yresolution 108)
+(monitor-xresolution 157)
+(monitor-yresolution 161)
 (default-view
     (show-menubar yes)
     (show-statusbar yes)
