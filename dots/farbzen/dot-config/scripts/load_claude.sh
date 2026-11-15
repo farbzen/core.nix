@@ -54,7 +54,7 @@ select_project() {
   selected=$(echo "${projects}" | fuzzel -d -p "Open in Neovim > ")
 
   check_project "${projects}" "${selected}"
-  open_project "${selected}"
+  open_project "${1}/${selected}"
 }
 
 select_project "${DEV_DIR}"

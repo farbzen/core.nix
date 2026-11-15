@@ -15,7 +15,7 @@
       dig
       git
       gum
-      herdr
+      herdr-desktop
       jq
       killall
       lsof

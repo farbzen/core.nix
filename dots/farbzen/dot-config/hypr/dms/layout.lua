@@ -22,4 +22,7 @@ hl.config({
 	},
 })
 
+-- Hand-written or migrated hyprland.lua often lacks this; tweened island lifts misplace the drag pointer.
+hl.layer_rule({ match = { namespace = "^dms:dankisland$" }, no_anim = true })
+
 -- bar-xray off
